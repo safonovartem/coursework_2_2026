@@ -45,5 +45,5 @@ def predict_image(img_path):
 
 # ===== пример =====
 if __name__ == "__main__":
-    path = r'C:\Users\PC\Downloads\images.jpg'
+    path = r'C:\Users\PC\Downloads\PyCharm_Icon.svg.png'
     predict_image(path)

@@ -16,7 +16,7 @@ IMG_WIDTH = 150
 EPOCHS = 15
 DATASET_DIR = "dataset"  # Путь к вашей папке с данными
 
-print("Загрузка данных...")
+print("Загрузка данных.*..")
 
 # 2. Загрузка обучающей выборки (80% данных)
 train_ds = tf.keras.utils.image_dataset_from_directory(
