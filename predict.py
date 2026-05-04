@@ -25,7 +25,7 @@ def predict_image(img_path):
     img_array = tf.keras.utils.img_to_array(img)
 
     # нормализация (ВАЖНО — как при обучении)
-    img_array = img_array / 255.0
+    #img_array = img_array / 255.0
 
     # добавляем batch dimension
     img_array = tf.expand_dims(img_array, 0)
@@ -45,5 +45,5 @@ def predict_image(img_path):
 
 # ===== пример =====
 if __name__ == "__main__":
-    path = r'C:\Users\PC\Downloads\images (1).jpg'
+    path = r'C:\Users\PC\Downloads\images.jpg'
     predict_image(path)
